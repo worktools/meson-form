@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  overscroll-behavior-y: none;
+  font-family: Helvetica Neue For Number, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Helvetica Neue,
+    Helvetica, Arial, sans-serif, Wenquanyi Micro Hei;
+}
+
+body * {
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+
+/* wait antd >4.6.3 */
+.ant-select-selection-placeholder {
+  opacity: 1;
+  color: #979797;
+}

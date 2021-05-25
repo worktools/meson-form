@@ -1,0 +1,15 @@
+node_modules/
+typings/
+.idea/
+.vscode/
+dist/
+.awcache/
+
+.DS_Store
+*.swp
+*.log
+
+.cache-loader/*
+
+
+lib/*
