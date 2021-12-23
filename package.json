@@ -1,6 +1,6 @@
 {
   "name": "@worktools/meson-form",
-  "version": "0.6.0-a1",
+  "version": "0.6.0-a2",
   "description": "",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
