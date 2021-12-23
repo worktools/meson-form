@@ -27,22 +27,8 @@ module.exports = {
     },
   },
   devServer: {
-    contentBase: __dirname,
-    publicPath: "/",
     compress: true,
-    clientLogLevel: "info",
-    disableHostCheck: true,
     host: "0.0.0.0",
-    stats: {
-      all: false,
-      colors: true,
-      errors: true,
-      errorDetails: true,
-      performance: true,
-      reasons: true,
-      timings: true,
-      warnings: true,
-    },
   },
   optimization: {
     minimize: false,
@@ -57,6 +43,5 @@ module.exports = {
       template: "template.ejs",
       trackingCode: "",
     }),
-
   ],
 };
