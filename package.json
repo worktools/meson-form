@@ -32,7 +32,7 @@
     "@worktools/flex-styles": "^0.2.2-a1",
     "@worktools/jimo-basics": "^0.1.13-a1",
     "@worktools/meson-modal": "^0.3.16-a1",
-    "@worktools/ruled-router": "^0.2.29-a1",
+    "@worktools/ruled-router": "^0.2.29-a2",
     "antd": "^4.17.4",
     "immer": "^9.0.7",
     "moment": "^2.27.0",
