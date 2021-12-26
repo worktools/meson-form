@@ -2,9 +2,9 @@ import React, { FC, useState } from "react";
 import { css, cx } from "@emotion/css";
 import { MesonForm } from "../../src/form";
 import { IMesonFieldItem, IMesonSelectItem } from "../../src/model/types";
-import DataPreview from "kits/data-preview";
+import DataPreview from "../kits/data-preview";
 import { DocDemo, DocBlock, DocSnippet } from "@worktools/doc-frame";
-import { getLink } from "util/link";
+import { getLink } from "../util/link";
 import Input from "antd/lib/input";
 
 let formItems: IMesonFieldItem[] = [
